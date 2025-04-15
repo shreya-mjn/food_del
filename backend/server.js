@@ -13,7 +13,7 @@ import { request } from "express"
 // app config
 const app = express()
 const port = process.env.PORT || 4000;
-
+console.log("this is from information");
 
 // middlewares
 app.use(express.json())
