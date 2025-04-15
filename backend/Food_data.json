@@ -1,0 +1,73 @@
+[
+    {
+      "name": "Margherita Pizza",
+      "category": "Pizza",
+      "price": 299,
+      "description": "Classic margherita pizza with fresh mozzarella, tomatoes, and basil.",
+      "nutrition": {
+        "calories": 250,
+        "protein": "12g",
+        "carbs": "30g",
+        "fat": "10g"
+      },
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Pizza_Margherita_stu_spivack.jpg/800px-Pizza_Margherita_stu_spivack.jpg",
+      "rating": 4.5
+    },
+    {
+      "name": "Caesar Salad",
+      "category": "Salad",
+      "price": 199,
+      "description": "Crisp romaine lettuce tossed in Caesar dressing with croutons and parmesan.",
+      "nutrition": {
+        "calories": 180,
+        "protein": "5g",
+        "carbs": "8g",
+        "fat": "15g"
+      },
+      "image": "https://feelgoodfoodie.net/wp-content/uploads/2020/04/Caesar-Salad-TIMG.jpg",
+      "rating": 4.2
+    },
+    {
+      "name": "Butter Chicken",
+      "category": "Main Course",
+      "price": 399,
+      "description": "Rich and creamy butter chicken with aromatic spices and butter sauce.",
+      "nutrition": {
+        "calories": 350,
+        "protein": "20g",
+        "carbs": "10g",
+        "fat": "25g"
+      },
+      "image": "https://www.allrecipes.com/thmb/SIgWrOI85-BlVbtGgUeew-77B7o=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/AR-141169-Easy-Indian-Butter-Chicken-DDMFS-4x3-beauty-588ff54d1e0f4a0788906e851e27d540.jpg    ",
+      "rating": 4.7
+    },
+    {
+      "name": "Spaghetti Carbonara",
+      "category": "Pasta",
+      "price": 349,
+      "description": "Traditional Italian pasta with creamy egg sauce, pancetta, and parmesan.",
+      "nutrition": {
+        "calories": 320,
+        "protein": "15g",
+        "carbs": "40g",
+        "fat": "12g"
+      },
+      "image": "https://www.allrecipes.com/thmb/a_0W8yk_LLCtH-VPqg2uLD9I5Pk=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/11973-spaghetti-carbonara-ii-DDMFS-4x3-6edea51e421e4457ac0c3269f3be5157.jpg",
+      "rating": 4.6
+    },
+    {
+      "name": "Chocolate Lava Cake",
+      "category": "Dessert",
+      "price": 149,
+      "description": "Warm chocolate cake with a gooey molten chocolate center.",
+      "nutrition": {
+        "calories": 400,
+        "protein": "5g",
+        "carbs": "50g",
+        "fat": "20g"
+      },
+      "image": "https://via.placeholder.com/150",
+      "rating": 4.9
+    }
+  ]
+  

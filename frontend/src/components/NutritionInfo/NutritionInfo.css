@@ -1,0 +1,59 @@
+.nutrition-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 400px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    padding: 20px;
+  }
+  
+  .popup-content {
+    text-align: center;
+  }
+  
+  .popup-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  .popup-content li {
+    margin: 5px 0;
+  }
+  
+  .close-btn {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .close-btn:hover {
+    background: darkred;
+  }
+  
+  .info-btn {
+    background: transparent;
+    border: none;
+    color: blue;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .info-btn:hover {
+    color: darkblue;
+  }
+  
+
+  button{
+    position: relative;
+    width: 10px;
+  }

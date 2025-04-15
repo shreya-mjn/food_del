@@ -1,0 +1,120 @@
+/* Filename: BookTable.css */
+
+.booking-wrapper{
+    width: 100%;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background:url("https://assets.architecturaldigest.in/photos/64f85037ec0bc118bdd98aba/4:3/w_1440,h_1080,c_limit/Untitled%20design%20(14).png");
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    border: 5px;
+    background-size: cover;
+}
+.booking-container {
+    width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    border: 5px;
+}
+
+h2 {
+    text-align: center;
+    color: #d9534f; /* A vibrant red color */
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="date"],
+input[type="time"],
+input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+input[type="date"]:focus,
+input[type="time"]:focus,
+input[type="number"]:focus {
+    border-color: #d9534f; /* Match the heading color */
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff4c24; /* A vibrant red color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.gues{
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 10px;
+    
+}
+
+button:hover {
+    background-color: #c9302c; /* Darker shade for hover effect */
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(1px);
+}
+
+@media (max-width: 480px) {
+    .booking-container {
+        width: 90%;
+    }
+}
+.booking-image {
+    width: 50%; /* Adjust width as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.booking-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Optional: rounded corners for the image */
+}
+.book{
+    justify-content: left;  
+    margin: 20px;
+    text-align: left;
+    text-decoration:solid;
+    
+
+}
+
+#tableNo{
+    width: 100%;
+    height: 200%;
+    border-radius: 3px;
+    padding: 10px;
+    /* outline: none; */
+    border: 2px solid #ddd;
+}
